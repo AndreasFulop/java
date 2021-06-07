@@ -3,8 +3,10 @@ public class M4_11static {
         Counter c1 = new Counter();
         Counter c2 = new Counter();
         System.out.println(Counter.COUNT);
-        System.out.println(c1.COUNT);
-        System.out.println(c2.COUNT);
+        System.out.println(c1);
+        System.out.println(c2);
+        //System.out.println(c1.COUNT);
+        //System.out.println(c2.COUNT);
         
         Vehicle.horn();
     }

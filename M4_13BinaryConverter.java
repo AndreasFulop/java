@@ -5,17 +5,17 @@ public class M4_13BinaryConverter {
         int x = sc.nextInt();
         sc.close();
         System.out.println(Converter.toBinary(x));
-        }
     }
-    
-    class Converter {
-        public static String toBinary(int num) {
-            String binary="";
-            while(num > 0) {
-                binary = (num%2)+binary;
-                num /= 2;
-            }
-            return binary;
+}
+
+class Converter {
+    public static String toBinary(int num) {
+        String binary="";
+        while(num > 0) {
+            binary = (num%2)+binary;
+            num /= 2;
         }
+        return binary;
     }
+}
         

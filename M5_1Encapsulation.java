@@ -13,20 +13,20 @@ public class M5_1Encapsulation {
                 
         income.CalculateNetRevenue();
         System.out.println("Net revenue: " + income.getNetRevenue());
-        }
     }
-         
-        class Income{
-            public int totalIncome;
-            public int taxPercent;
-            private int netRevenue;
-            
-            public void CalculateNetRevenue(){
-                netRevenue = totalIncome - totalIncome*taxPercent/100;              
-            }
-            
-            public int getNetRevenue(){
-                return netRevenue;
-            }
-        }
+}
         
+class Income{
+    public int totalIncome;
+    public int taxPercent;
+    private int netRevenue;
+    
+    public void CalculateNetRevenue(){
+        netRevenue = totalIncome - totalIncome*taxPercent/100;              
+    }
+    
+    public int getNetRevenue(){
+        return netRevenue;
+    }
+}
+    
