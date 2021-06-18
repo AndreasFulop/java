@@ -19,7 +19,6 @@ public class M4_9constructor {
     private int row;
     private int seat;
   
-    //complete the constructor
     public Ticket(String movie, int row, int seat) {
         this.setMovie(movie);
         this.setRow(row);
@@ -35,6 +34,12 @@ public class M4_9constructor {
     public void setSeat(int seat) {
         this.seat = seat;
     }
+    /* or (in the Ticket constructor) just: 
+        this.movie = movie;
+        this.row = row;
+        this.seat = seat;
+    and delete the 3 setter!
+    */
 
     public String getMovie() {
         return movie;

@@ -1,4 +1,3 @@
-
     public class M5_7Interface {
         public static void main(String[] args) {
          Animal dog = new Dog();

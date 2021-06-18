@@ -30,7 +30,7 @@ public class M4_7GetterSetter {
 
     public void setAge(int age) {
             this.age = age;
-        }
     }
+}
  
 
