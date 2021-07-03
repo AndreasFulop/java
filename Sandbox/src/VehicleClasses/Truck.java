@@ -1,4 +1,4 @@
-package Sandbox.src;
+package Sandbox.src.VehicleClasses;
 
 public class Truck extends Car{
     @Override

@@ -1,12 +1,7 @@
 package Sandbox.src;
-public class Application {
+
+public class Sorting2D {
     public static void main(String[] args) {
-        Car car = new Car();
-        Truck truck = new Truck();
-
-        System.out.println(car.createName("BMW"));
-
-        System.out.println(truck.createName("BMW"));
     
         int[] arr = {3,5,2,5,1};
         int[] kati = Kata.flip('L', arr);

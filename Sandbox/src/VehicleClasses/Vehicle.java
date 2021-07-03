@@ -1,4 +1,4 @@
-package Sandbox.src;
+package Sandbox.src.VehicleClasses;
 
 public class Vehicle {
     public String createName(String name) {
